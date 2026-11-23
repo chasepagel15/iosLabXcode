@@ -1,9 +1,14 @@
 import SwiftUI
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .font(.largeTitle)
-            .padding()
+        VStack{
+            Text("Hello, GitHub!")
+                .font(.largeTitle)
+                .foregroundStyle(.blue)
+            
+            Text("Welcome to my test branch")
+        }
+        .padding()
     }
 }
 
